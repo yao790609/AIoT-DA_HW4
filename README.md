@@ -58,32 +58,34 @@ The project involves:
    cd titanic-survival-prediction
    
 1. **Install dependencies**:
+    ```bash
     pip install -r requirements.txt
-2. **Prepare the datasets**:
-Place train.csv and test.csv in the root directory.
-3. **Run the script**:
-python main.py
-4. **Check the output**:
-Predictions will be saved in submission.csv.
+3. **Prepare the datasets**:
+ - Place train.csv and test.csv in the root directory.
+4. **Run the script**:
+    ```bash
+    python main.py
+6. **Check the output**:
+ - Predictions will be saved in submission.csv.
 
-##Visualization
+## Visualization
 Confusion Matrix
 A graphical representation of the model's classification performance.
 
-##Feature Importance
+## Feature Importance
 A chart showing the importance of each feature in making predictions.
 
-##Sample Results
+## Sample Results
 PassengerId	Survived
 892	0
 893	1
 894	0
 
-##Future Enhancements
+## Future Enhancements
 Implement cross-validation for more robust evaluation.
 Add more feature engineering techniques (e.g., interaction terms).
 Experiment with additional AutoML frameworks like H2O or MLFlow.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
